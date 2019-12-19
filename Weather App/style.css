@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: url("https://images.wallpaperscraft.com/image/starry_sky_clouds_sunset_120716_1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start_menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 450px;
+  background: linear-gradient(180deg, #00c9ff 0%, #92fe9d 100%);
+  z-index: 1111;
+}
+
+.img_box {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.img_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.text_box {
+  margin-top: 10px;
+  text-align: center;
+  padding: 15px;
+}
+
+.text_box h3 {
+  padding-bottom: 15px;
+}
+
+#start_btn {
+  margin-top: 20px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 17px;
+  background-color: #2c96fa;
+  color: white;
+}
+
+#start_btn:hover {
+  background-color: #1d84bb;
+}
+
+.main_container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 400px;
+  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 1);
+}
+
+.input_box {
+  margin-right: auto;
+  margin-left: auto;
+  height: 70px;
+  width: 350px;
+  font-size: 30px;
+}
+
+.input_box a {
+  color: white;
+}
+
+.search_box {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 60px;
+  margin-top: 15px;
+  width: 200px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.weather_icon {
+  width: 150px;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+}
+
+.city_name {
+  height: 50px;
+  text-align: center;
+}
+.city_name p {
+  padding-top: 5px;
+  color: white;
+  font-size: 30px;
+}
+
+.flex_icon_temp {
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.temperature_value {
+  margin-top: 25px;
+  height: 70px;
+  font-size: 60px;
+  background-color: none;
+  width: 200px;
+}
+
+.temperature_value p {
+  font-family: "Roboto", sans-serif;
+  color: #c9fa1f;
+}
+
+.temperature_description {
+  height: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.temperature_description p {
+  color: whitesmoke;
+}
+
+.other_information_box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  display: flex;
+  width: 450px;
+  height: 30px;
+}
+
+#wind,
+#feels_like,
+#max_temp {
+  width: 200px;
+  height: 30px;
+  color: whitesmoke;
+}
+
+.forecast_box {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.forecast_box p {
+  padding-top: 10px;
+  color: #c9fa1f;
+  font-size: 20px;
+}
+
+.forecast_box p a {
+  padding-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+#day_1 {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  padding-top: 10px;
+  color: whitesmoke;
+  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 1);
+}
+
+#day_1 h2,
+#day_2 h2,
+#day_3 h2,
+#day_4 h2,
+#day_5 h2 {
+  color: #c9fa1f;
+  padding-bottom: 15px;
+}
+#day_2 {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  padding-top: 10px;
+  color: whitesmoke;
+}
+#day_3 {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  padding-top: 10px;
+  color: whitesmoke;
+  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 1);
+}
+#day_4 {
+  width: 200px;
+  height: 250px;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 10px;
+}
+#day_5 {
+  width: 200px;
+  height: 250px;
+  text-align: center;
+  padding-top: 10px;
+  color: whitesmoke;
+  box-shadow: 0.5rem 0.5rem 3rem rgba(0, 0, 0, 1);
+}
+
+.forecast_5_days {
+  width: 1000px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
